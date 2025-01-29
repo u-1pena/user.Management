@@ -32,6 +32,10 @@ public class UserDetail {
     this.password = password;
   }
 
+  //引数なしのコンストラクタ
+  public UserDetail() {
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {

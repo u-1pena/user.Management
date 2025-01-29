@@ -12,8 +12,16 @@ public class User {
   private String account;
   private String email;
 
+  public User() {
+  }
+
   public User(int id, String account, String email) {
     this.id = id;
+    this.account = account;
+    this.email = email;
+  }
+
+  public User(String account, String email) {
     this.account = account;
     this.email = email;
   }
